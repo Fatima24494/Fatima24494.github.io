@@ -1,0 +1,32 @@
+
+body {
+  background-color: Gray;
+  font-size: 20;
+  font-family: verdana;
+  color: white;
+}
+
+h2 {
+    border: 4px dotted white;
+}
+h1 {
+    border: 4px dotted white;
+}
+h3 {
+    border: 4px dotted white;
+}
+img {
+    border: 4px dotted white;
+}
+ iframe{
+    border: 4px dotted white;
+}
+div.fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100px;
+}
+a{
+   color: PowderBlue ;
+}
