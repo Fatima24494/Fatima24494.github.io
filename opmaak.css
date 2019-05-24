@@ -1,25 +1,31 @@
-
+table.tabelA {
+  border: solid black;
+}
 body {
   background-color: Gray;
   font-size: 20;
-  font-family: verdana;
-  color: white;
+  font-family: Times New Roman;
+  color: White;
 }
 
 h2 {
     border: 4px dotted white;
+    border-radius: 1px 1px 1px 1px
 }
 h1 {
     border: 4px dotted white;
+    border-radius: 1px 1px 1px 1px
 }
 h3 {
     border: 4px dotted white;
+    border-radius: 1px 1px 1px 1px
 }
 img {
     border: 4px dotted white;
 }
  iframe{
     border: 4px dotted white;
+    border-radius: 1px 1px 1px 1px
 }
 div.fixed {
     position: fixed;
@@ -27,6 +33,64 @@ div.fixed {
     right: 0;
     width: 100px;
 }
-a{
-   color: PowderBlue ;
+
+a {
+   color: #a8cdff ;
+}
+
+a:hover {
+   color: #a8cdff ;
+}
+
+
+body {
+  background-image: url(gray.png);
+}
+
+h1, h2, img, iframe, h3 {
+  border: 4px solid white;
+  color: #a8cdff;
+  background-color: Gray;
+  text-align : center;
+  font-family: Georgia, "Times New Roman" , Times, serif;
+  font-style: italic;
+}
+p.vraag {
+  margin-left: 50px;
+}
+
+p.antwoord {
+  color: #a8cdff;
+  background-color:#a8cdff;
+}
+
+p.antwoord:hover {
+color: black;
+background-color: #a8cdff;
+}
+
+ul {
+  font-size: 20px;
+  background-color: #a8cdff
+  list-style: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: gray;
+}
+
+li {
+  display: inline-block;
+  float: left;
+}
+
+li a {
+
+  text-decoration: none;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
